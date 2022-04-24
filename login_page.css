@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    background-color: rgb(80, 80, 226);
+    display: flex;
+    flex-direction: row;
+    padding: 200px 350px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;}
+
+    .login_container {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(80, 80, 226);
+        border-radius: 5px;
+        width: 400px;
+        height: 400px;
+    justify-content: space-around;
+    align-items: center;
+        background-color: white;
+    }
+
+    #sign-header{
+        
+        width:300px ;
+    }
+#sign-details{
+    margin-top: 10px;
+
+}
+
+#sign-details>div>input{
+border: 1px solid rgb(153, 153, 153);
+background-color:rgb(222, 221, 221);
+color: black;
+width: 300px;
+height: 50px;
+}
+
+#sign-in{
+    border: 1px solid rgb(50, 17, 233);
+    background-color:rgb(50, 17, 233);
+    color: white;
+    width: 300px;
+    height: 50px;
+}
