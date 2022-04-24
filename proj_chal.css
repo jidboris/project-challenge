@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    height: 100%;
+    width: auto;
+    background: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#nav-bar {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    align-items: center;
+    padding: 0px 60px 0px 60px;
+}
+#header_2>a{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+}
+#nav-bar>div{
+    justify-content: space-around;
+margin: 120px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+a[href="#"]{
+text-decoration: none;
+color: black;
+}
+
+ul>li{
+    font-size: 10px;
+    margin: 5px;
+}
+li.dropdown{
+    display: inline-block
+}
+.drpdwn-content{
+    display: none;
+    position: absolute;
+}
+.drpdwn-content a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+#get>button{
+    border: 1px solid black;
+     width: 120px;
+     height: 30px;
+} 
+
+#div2 {
+    background: rgba(0, 0, 17, 0.01) url(proj_chall-photo.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    position: relative;
+} 
+#img_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(55, 3, 42);
+}
+#img_content1{
+word-spacing: 30px;
+}
+
+#img_content2 {
+
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 0px; 
+    font-weight: bold;
+    color: rgb(246, 240, 245);  
+}
+#sign-in{
+    border: 1px solid white;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 10px;
+    font-weight: bold;
+}
